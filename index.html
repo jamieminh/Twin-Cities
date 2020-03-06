@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>POM - SYD</title>
+    <link rel="icon" type="image/png" href="uwe_icon.png">
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Twin Cities</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li  class="active">
+                    <a href="#">Maps</a>
+                </li>
+
+                <li>
+                    <a href="#porSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Portsmouth</a>
+                    <ul class="collapse list-unstyled" id="porSubmenu">
+                        <li>
+                            <a href="#charlesDickens">Charles Dickens' Birthplace Museum</a>
+                        </li>
+                        <li>
+                            <a href="#maryRose">Mary Rose Museum</a>
+                        </li>
+                        <li>
+                            <a href="#harbour">Portsmouth Harbour</a>
+                        </li>
+                        <li>
+                            <a href="#southsea">Southsea Castle</a>
+                        </li>
+                        <li>
+                            <a href="#spinnaker">Spinnaker Tower</a>
+                        </li>
+                        <li>
+                            <a href="#maryChurch">St. Mary Church</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#sydSubmenu" data-toggle="collapse" aria-expanded="false"
+                        class="dropdown-toggle">Sydney</a>
+                    <ul class="collapse list-unstyled" id="sydSubmenu">
+                        <li>
+                            <a href="#greenSquare">Green Square</a>
+                        </li>
+                        <li>
+                            <a href="#museumSydney">Museum of Sydney</a>
+                        </li>
+                        <li>
+                            <a href="#operaHouse">Opera House</a>
+                        </li>
+                        <li>
+                            <a href="#royalGarden">Royal Botanic Garden</a>
+                        </li>
+                        <li>
+                            <a href="#theStar">The Star</a>
+                        </li>
+                        <li>
+                            <a href="#townHall">Town Hall</a>
+                        </li>
+                        <li>
+                            <a href="#walshBay">Walsh Bay</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid" >
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                    </button>
+
+                </div>
+            </nav>
+
+            <div id="block-wrp" class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block-item">
+                    <div id="mapCanvas1" class="map-item"> </div>
+                    <span class="city-name"><a href='https://en.wikipedia.org/wiki/Portsmouth'>Portsmouth, United
+                            Kingdom</a></span>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block-item">
+                    <div id="mapCanvas2" class="map-item"> </div>
+                    <span class="city-name"><a href='https://en.wikipedia.org/wiki/City_of_Sydney'>Sydney,
+                            Australia</a></span>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div id="portsmouth">
+                <h1>Portsmouth</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+
+                <h3 id="charlesDickens">Charles Dickens' Birthplace Museum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+
+                <h3 id="maryRose">Mary Rose Museum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+
+                <h3 id="harbour">Portsmouth Harbour</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+
+                <h3 id="southsea">Southsea Castle</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+
+                <h3 id="spinnaker">Southsea Castle</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+
+                <h3 id="maryChurch">St. Mary Church</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+            </div>
+
+            <div class="line"></div>
+
+            <div id="sydney">
+                <h1>Sydney</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+
+                <h4 id="greenSquare">Green Square</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+
+                <h4 id="museumSydney">Museum of Sydney</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+
+                <h4 id="operaHouse">Opera House</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+
+                <h4 id="royalGarden">Royal Botanic Garden</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+
+                <h4 id="theStar">The Star Sydney</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+
+                <h4 id="townHall">Town Hall</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+
+                <h4 id="walshBay">Walsh Bay</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+            </div>
+
+
+            <!-- jQuery CDN -->
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                crossorigin="anonymous"></script>
+            <!-- Propper.JS  -->
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            <!-- Bootstrap JS -->
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                crossorigin="anonymous"></script>
+            <!-- jQuery Custom Scroller CDN -->
+            <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+            <!-- external js script -->
+            <script type="text/javascript" src="script.js"></script>
+            <!-- Google Map Api -->
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbs87eYLfp2QIu6-9vMvOp6qDjWMaMCOM"
+                type="text/javascript"></script>
+
+
+            <script async defer
+                src="https://maps.google.com/maps/api/js?key=AIzaSyAbs87eYLfp2QIu6-9vMvOp6qDjWMaMCOM&callback=drawMap"
+                type="text/javascript"></script>
+
+
+</body>
+
+</html>
